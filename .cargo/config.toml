@@ -1,0 +1,11 @@
+[build]
+exclude = ["references"]
+
+[check]
+exclude = ["references"]
+
+[clippy]
+exclude = ["references"]
+
+[fmt]
+exclude = ["references"] 

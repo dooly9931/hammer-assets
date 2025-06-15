@@ -1,0 +1,11 @@
+[package]
+name = "hammer-entity"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+rust_decimal = { workspace = true } 
+sea-orm = { workspace = true }
+serde = { workspace = true }
+time = { workspace = true }

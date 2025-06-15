@@ -1,0 +1,14 @@
+[package]
+name = "hammer-service"
+version = "0.1.0"
+edition = "2024"
+publish = false
+
+[dependencies]
+dotenvy = { workspace = true }
+hammer-entity = { path = "../entity" } 
+rust_decimal = { workspace = true }
+sea-orm = { workspace = true }
+serde = { workspace = true }
+time = { workspace = true }
+tokio = { workspace = true }
